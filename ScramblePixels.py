@@ -64,16 +64,10 @@ def scramble_pixels(img, cell_rows, cell_columns):
 iphone8_resolution = [750, 1334]
 laptop_resolution = [1920, 1080]
 
-image1 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\500 by 500.jpg')
-image2 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\testImage.jpg')
-image3 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\Earthmap1000x500.jpg')
-image4 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\laptop Test.jpg')
-image5 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\lyss funny.PNG')
-image6 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\erin.png')
-image7 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\Me and Alyssa.JPG')
-image8 = Image.open(r'C:\Users\nolan\Desktop\Programming\Sublime Text\Python\Image Manipulation\balloons.PNG')
+image1 = Image.open(r'C:\Users\img.PNG') # The image's file path
+
 
 scramble_pixels(image8, 50, 50)
-#image6.show()
+#image6.show() # shows the original image
 
 
