@@ -22,6 +22,11 @@ def scramble_pixels(img, cell_rows, cell_columns):
 
 	image_width = img.size[0] # width of the base image
 	image_height = img.size[1] # height of the base image
+	
+	# displays warning about inputed cell_rows and cell_column values
+	if image_width % cell_rows != 0 or image_height % cell_columns != 0: 
+		print('WARNING: for best results the number of rows and number of columns should evenly divide into the width and height of the image.')
+	
 	cell_width = math.ceil(image_width / cell_rows) # width of each cell for the base image
 	cell_height = math.ceil(image_height / cell_columns) # height of each cell for the base image
 
